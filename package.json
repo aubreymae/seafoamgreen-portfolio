@@ -5,7 +5,7 @@
   "main": "menus.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "echo 'build script executed'"
+	"build": "run-s build:*"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,19 @@
+{
+  "name": "hugo-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "menus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aubreymae/seafoamgreen-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aubreymae/seafoamgreen-portfolio/issues"
+  },
+  "homepage": "https://github.com/aubreymae/seafoamgreen-portfolio#readme"
+}

@@ -1,0 +1,101 @@
+---
+layout: default
+title: Aubrey Mae Garcia
+---
+
+<!-- CONTENT -->
+			<h2>Illustration</h2>
+			<div id="container">
+				<div class="row">
+					<div class="col-4">
+						<a href="/assets/ellietlou2.jpg" data-lity><img class="portfolio-piece" src="assets/ellietlou2.jpg" /></a>
+					</div>
+					<div class="col-4">
+						<a href="/assets/boxing-girl.jpg" data-lity><img class="portfolio-piece" src="assets/boxing-girl.jpg"/></a>
+					</div>
+					<div class="col-4">
+						<a href="/assets/amaryllis-cover1.jpg" data-lity><img class="portfolio-piece" src="assets/amaryllis-cover1.jpg" vertical-align="middle"/></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 see-read-more">
+						<h4><a class="see-read-more-link" href="/illustration.html">See More Illustrations</a></h4>
+					</div>
+				</div>
+			</div>
+
+			<h2>Design</h2>
+			<div id="container">
+				<div class="row">
+					<div class="col-4">
+						<a href="/assets/wolf1.png" data-lity><img class="portfolio-piece" src="assets/wolf1.png" vertical-align="middle"/></a>
+					</div>
+					<div class="col-4">
+						<a href="/assets/wolf2.png" data-lity><img class="portfolio-piece" src="assets/wolf2.png" vertical-align="middle"/></a>
+					</div>
+					<div class="col-4">
+						<a href="/assets/wolf3.png" data-lity><img class="portfolio-piece" src="assets/wolf3.png" vertical-align="middle"/></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<a href="assets/makerday-teal.png" data-lity><img class="portfolio-piece" src="assets/makerday-teal.png" vertical-align="middle"/></a>
+					</div>
+					<div class="col-4">
+						<a href="assets/welcomeparty-summer.jpg" data-lity><img class="portfolio-piece" src="assets/welcomeparty-summer.jpg" vertical-align="middle"/></a>
+					</div>
+					<div class="col-4">
+						<a href="assets/peerprogram-register.jpg" data-lity><img class="portfolio-piece" src="assets/peerprogram-register.jpg" vertical-align="middle"/></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<a href="https://aubreymae.github.io" data-lity><img class="portfolio-piece" src="assets/amg-old-site.png" vertical-align="middle"/></a>
+					</div>
+					<div class="col-4">
+						<a href="http://yorkinternational.yorku.ca/yifeel/" data-lity><img class="portfolio-piece" src="assets/yifeel1.jpg" vertical-align="middle"/></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 see-read-more">
+						<h4><a class="see-read-more-link" href="/design.html">See More Designs</a></h4>
+					</div>
+				</div>
+			</div>
+
+			<!-- <h2>Blog</h2> -->
+			<div id="blog-container">
+				{% for post in site.posts %}
+
+				<div class="blog-post-title">
+					<h3>{{ post.title }}</h3>
+				</div>
+				<div class="blog-post-date">
+					<p class="subtitle">{{ post.date | date: '%B %d, %Y' }}</p>
+				</div>
+				<div class="blog-post-text">
+					<p>{{ post.excerpt }}</p>
+				</div>
+				<div class="see-read-more">
+					<h4><a class="see-read-more-link" href="{{ post.url }}">Read More</a></h4>
+				</div>
+			</div>
+			<div id="blog-container">
+				<div class="blog-post-title">
+					<h3>Blog Title</h3>
+				</div>
+				<div class="blog-post-date">
+					<p class="subtitle">Month, Day, Year</p>
+				</div>
+				<div class="blog-post-text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="see-read-more">
+					<h4><a class="see-read-more-link" href="#">Read More</a></h4>
+				</div>
+
+				{% endfor %}
+			</div>
+			<!-- <div class="see-read-more">
+					<h4><a class="see-read-more-link" href="/blog.html">Browse Blog by Tags</a></h4>
+			</div> -->
